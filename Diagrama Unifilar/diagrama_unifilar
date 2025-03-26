@@ -1,0 +1,24 @@
+// Diagrama Unifilar
+digraph {
+	DG [label="Disjuntor Geral" shape=circle]
+	"Medidor Apto 1" [label="Medidor Apto 1" color=lightblue shape=box style=filled]
+	"Disjuntor Apto 1" [label="Disjuntor Apto 1" shape=circle]
+	DG -> "Medidor Apto 1" [label="Bitola: 10mm²"]
+	"Medidor Apto 1" -> "Disjuntor Apto 1"
+	"Medidor Apto 2" [label="Medidor Apto 2" color=lightblue shape=box style=filled]
+	"Disjuntor Apto 2" [label="Disjuntor Apto 2" shape=circle]
+	DG -> "Medidor Apto 2" [label="Bitola: 10mm²"]
+	"Medidor Apto 2" -> "Disjuntor Apto 2"
+	"Medidor Apto 3" [label="Medidor Apto 3" color=lightblue shape=box style=filled]
+	"Disjuntor Apto 3" [label="Disjuntor Apto 3" shape=circle]
+	DG -> "Medidor Apto 3" [label="Bitola: 10mm²"]
+	"Medidor Apto 3" -> "Disjuntor Apto 3"
+	"Medidor Apto 4" [label="Medidor Apto 4" color=lightblue shape=box style=filled]
+	"Disjuntor Apto 4" [label="Disjuntor Apto 4" shape=circle]
+	DG -> "Medidor Apto 4" [label="Bitola: 10mm²"]
+	"Medidor Apto 4" -> "Disjuntor Apto 4"
+	"Medidor Apto 5" [label="Medidor Apto 5" color=lightblue shape=box style=filled]
+	"Disjuntor Apto 5" [label="Disjuntor Apto 5" shape=circle]
+	DG -> "Medidor Apto 5" [label="Bitola: 10mm²"]
+	"Medidor Apto 5" -> "Disjuntor Apto 5"
+}
